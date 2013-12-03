@@ -23,7 +23,6 @@ BOOL addMagicalRecordShorthandMethodToPrefixedInstanceMethod(Class klass, SEL or
 void swizzleInstanceMethods(Class originalClass, SEL originalSelector, Class targetClass, SEL newSelector);
 void replaceSelectorForTargetWithSourceImpAndSwizzle(Class originalClass, SEL originalSelector, Class newClass, SEL newSelector);
 
-
 @implementation MagicalRecord (ShorthandSupport)
 
 #pragma mark - Support methods for shorthand methods

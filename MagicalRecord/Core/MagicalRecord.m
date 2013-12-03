@@ -26,7 +26,7 @@
 + (void) cleanUp
 {
     [self cleanUpErrorHanding];
-    [self cleanUpStack];
+    [self cleanUpStack]; 
 }
 
 + (void) cleanUpStack;
